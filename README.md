@@ -41,7 +41,7 @@ From the visible application entry point, the app appears to use these internal 
 - `src/colors.js` — terminal color helpers
 - `data/questions.json` — quiz content
 
-> Note: this README stays intentionally cautious where the repository snapshot is incomplete.
+> Note: this README stays intentionally cautious where the repository snapshot is incomplete, and may be updated as additional files are added.
 
 ## How It Works
 
