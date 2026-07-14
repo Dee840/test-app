@@ -2,13 +2,15 @@
 
 An interactive command-line quiz game for learning JavaScript.
 
-## Project description
+## Description
 
-Quiz CLI is a Node.js terminal app that loads quiz questions from a JSON file, lets the user choose a category and question count, then runs an interactive quiz in the console. It uses ES modules and built-in Node.js APIs.
+**Quiz CLI** is a Node.js terminal application that loads questions from a JSON file, lets the user choose a category and quiz length, and then runs an interactive multiple-choice quiz in the console.
 
-## Key features
+The repository metadata and entry script indicate that the app uses ES modules and targets Node.js 18 or newer.
 
-- Interactive CLI quiz flow
+## Features
+
+- Interactive command-line quiz flow
 - Category selection
 - Choice of question count
 - Results summary at the end of each quiz
@@ -18,7 +20,7 @@ Quiz CLI is a Node.js terminal app that loads quiz questions from a JSON file, l
 
 ## Requirements
 
-- Node.js 18 or newer
+- Node.js 18.0.0 or newer
 
 ## Setup
 
@@ -30,9 +32,9 @@ cd test-app
 npm install
 ```
 
-> Note: The visible `package.json` does not list any external dependencies, so `npm install` may finish quickly. It is still safe to run.
+> Note: The visible `package.json` does not list external dependencies, so `npm install` may complete quickly.
 
-## How to run
+## Run
 
 Start the app with:
 
@@ -41,6 +43,12 @@ npm start
 ```
 
 This runs:
+
+```bash
+node index.js
+```
+
+You can also run the entry file directly:
 
 ```bash
 node index.js
@@ -60,9 +68,11 @@ This uses Node's built-in test runner:
 node --test
 ```
 
+No test files were visible in the repository snapshot, so this command may do nothing until tests are added.
+
 ## Project structure
 
-From the visible project files, the repository includes:
+From the visible files, the repository includes:
 
 - `index.js` — main CLI entry point
 - `package.json` — project metadata and scripts
